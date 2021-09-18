@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+    height: 800vh;
+    text-align: center;
+    overflow: hidden;
+    background-image: linear-gradient( 179.2deg, rgba(34, 34, 34, 1) 0%, rgba(8, 0, 153, 1) 59.7%, rgba(118, 6, 166, 1) 83.4%, rgba(233, 0, 64, 1) 100.1%);
+}
+
+h1 {
+    color: white;
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+
+/*Buttons navigation*/
+
+.play {
+    background-color: rgb(109, 0, 0);
+    color: black;
+    border: 2px solid #2d632f;
+    border-radius: 45px;
+    padding: 10px;
+    font-size: 40px;
+    /* Green */
+}
+
+.play:hover {
+    background-color: rgb(209, 81, 81);
+    color: black;
+    border: 2px solid #1ea322;
+    border-radius: 15px;
+    transform: scale(2);
+    /* Green */
+}
+
+.top {
+    background-color: rgb(77, 0, 165);
+    color: rgb(255, 255, 255);
+    border: 2px solid #2d632f;
+    border-radius: 45px;
+    padding: 10px;
+    font-size: 40px;
+    position: absolute;
+    bottom: -6770px;
+    right: 2%;
+    z-index: 10000;
+}
+
+
+/*Animation*/
+
+.contenedor_animacion {
+    position: relative;
+    height: 420vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*Objects*/
+
+.ship {
+    position: absolute;
+    top: 100px;
+    z-index: 100;
+}
+
+.door-ship {
+    position: absolute;
+    top: 521px;
+    right: 196px;
+    z-index: 10000;
+    opacity: 0;
+}
+
+.sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    left: -2%;
+    top: 86vh;
+}
+
+.ground {
+    top: 80vh;
+    bottom: 6650px;
+    width: 1920px;
+    position: absolute;
+    opacity: 0;
+    z-index: 150;
+}
+
+.dust {
+    right: 20%;
+    position: absolute;
+    bottom: 7200px;
+    width: 500px;
+    height: 100px;
+    opacity: 0;
+}
+
+.star {
+    opacity: 0;
+    position: absolute;
+    bottom: 7500px;
+    width: 20px;
+    height: 20px;
+}
+
+.star1 {
+    right: 20%;
+    top: 60vh;
+    width: 15px;
+    height: 15px;
+}
+
+.star2 {
+    right: 10%;
+    top: 10vh;
+    width: 27px;
+    height: 27px;
+}
+
+.star3 {
+    left: 3%;
+    top: 30vh;
+}
+
+.star4 {
+    left: 20%;
+    top: 10vh;
+    width: 10px;
+    height: 10px;
+}
+
+.star5 {
+    left: 30%;
+    top: 38vh;
+}
+
+.star6 {
+    left: 40%;
+    top: 70vh;
+    width: 18px;
+    height: 18px;
+}
+
+.star7 {
+    left: 58%;
+    top: 33vh;
+    width: 24px;
+    height: 24px;
+}
+
+.star8 {
+    right: 5%;
+    top: 40vh;
+    width: 8px;
+    height: 8px;
+}
+
+.star9 {
+    left: 13%;
+    top: 27vh;
+    width: 11px;
+    height: 11px;
+}
+
+.star10 {
+    left: 25%;
+    top: 48vh;
+}
+
+.star11 {
+    right: 6%;
+    top: 66vh;
+    width: 22px;
+    height: 22px;
+}
+
+.star12 {
+    left: 41%;
+    top: 16vh;
+}
+
+.star13 {
+    left: 85%;
+    top: 11vh;
+    width: 3px;
+    height: 3px;
+}
+
+.star14 {
+    left: 98%;
+    top: 23vh;
+    width: 14px;
+    height: 14px;
+}
+
+
+/*Resize in progress*/
+
+@media(max-width: 1600px) {
+    .contenedor_animacion {}
+}
