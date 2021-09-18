@@ -57,13 +57,13 @@ time_line.to(star8, { opacity: 0.6, duration: 5 });
 time_line.to(star9, { opacity: 0.8, duration: 15 });
 time_line.to(star10, { opacity: 0.6, duration: 10 });
 
-time_line.to(ship2, { rotate: -180, duration: 70 });
+time_line.to(ship, { rotate: -180, duration: 70 });
 
 time_line.to(star11, { opacity: 0.2, duration: 5 });
 time_line.to(star12, { opacity: 0.6, duration: 15 });
 time_line.to(star13, { opacity: 0.7, duration: 10 });
 
-time_line.to(ship3, { y: '35.3vh', duration: 5 });
+time_line.to(ship, { y: '35.3vh', duration: 5 });
 
 
 time_line.to(sun, { opacity: 1, y: '-90vh', scale: 1.2, duration: 5 });
