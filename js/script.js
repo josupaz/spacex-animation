@@ -51,13 +51,13 @@ time_line.to(star5, { opacity: 1, duration: 5 });
 time_line.to(star6, { opacity: 0.2, duration: 15 });
 time_line.to(star7, { opacity: 0.1, duration: 10 });
 
-time_line.to(ship, { x: '35.1vh', duration: 50 });
+time_line.to(ship, { x: '36.2vh', duration: 50 });
 
 time_line.to(star8, { opacity: 0.6, duration: 5 });
 time_line.to(star9, { opacity: 0.8, duration: 15 });
 time_line.to(star10, { opacity: 0.6, duration: 10 });
 
-time_line.to(ship, { rotate: -180, duration: 70 });
+time_line.to(ship, { rotate: -180, duration: 60 });
 
 time_line.to(star11, { opacity: 0.2, duration: 5 });
 time_line.to(star12, { opacity: 0.6, duration: 15 });
